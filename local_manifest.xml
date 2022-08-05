@@ -12,6 +12,8 @@
         fetch="https://github.com/PixelExperience-Devices" />
 
         <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="PAX" clone-depth="1" revision="sapphire" />
+        <project path="vendor/asus/X00TD" name="android_vendor_asus_X00TD" remote="PAX" clone-depth="1" revision="sapphire" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="PAX" clone-depth="1" revision="sapphire" />
         <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="PAX" clone-depth="1" revision="sapphire-legacy-um" />
 
