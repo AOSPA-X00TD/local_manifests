@@ -2,14 +2,8 @@
 
 <manifest>
 
-        <remote name="wanderlusttt"
-        fetch="https://github.com/wanderlusttt1" />
-
         <remote name="PAX"
         fetch="https://github.com/AOSPA-X00TD" />
-
-        <remote name="pe-devices-github"
-        fetch="https://github.com/PixelExperience-Devices" />
 
         <!-- Sync trees -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="PAX" revision="sapphire" />
